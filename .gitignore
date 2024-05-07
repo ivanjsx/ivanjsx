@@ -1,5 +1,6 @@
 # frontend
 node_modules
+build
 
 # system
 .DS_Store
