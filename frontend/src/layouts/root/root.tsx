@@ -2,13 +2,16 @@
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
 
+// styles 
+import styles from "./root.module.css";
+
 
 
 const RootLayout: FC = () => {
   return (
-    <main>
+    <div className={styles.page}>
       <Outlet />
-    </main>              
+    </div>
   )
 };
 
