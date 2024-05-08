@@ -4,6 +4,9 @@ import { FC } from "react";
 // styles
 import styles from "./app-header.module.css";
 
+// media 
+import cv from "../../media/cv.pdf";
+
 
 
 const AppHeader: FC = () => {
@@ -12,7 +15,7 @@ const AppHeader: FC = () => {
       <h1 className={styles.name}>
         Ivan Shanin
       </h1>
-      <a href="/" download="IvanShaninCV.pdf" className={styles.link}>
+      <a href={cv} download="IvanShaninCV.pdf" className={styles.link}>
         <button className={styles.download}>
           Download CV
         </button>

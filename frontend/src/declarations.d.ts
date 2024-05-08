@@ -3,3 +3,7 @@ declare module "*.module.css" {
   export default classes;
 };
 
+declare module "*.pdf" {
+  const content: string;
+  export default content;
+};
