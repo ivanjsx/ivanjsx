@@ -1,5 +1,5 @@
 .header {
-  padding: 36px 48px;
+  padding: 36px 102px 36px 48px;
   border-bottom: 1px solid #282828;
   display: flex;
   justify-content: space-between;
@@ -7,6 +7,7 @@
 
 .name {
   margin: 0;
+  font-size: 24px;
 }
 
 .link {
@@ -15,4 +16,5 @@
 
 .download {
   composes: button from global;
+  font-size: 24px;
 }
