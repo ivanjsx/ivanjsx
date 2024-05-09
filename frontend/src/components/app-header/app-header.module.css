@@ -1,6 +1,6 @@
 .header {
-  padding: 36px 102px 36px 48px;
-  border-bottom: 1px solid #282828;
+  padding: 36px 106px 36px 48px;
+  border-bottom: 1px solid var(--primary-color);
   display: flex;
   justify-content: space-between;
 }
@@ -10,11 +10,7 @@
   font-size: 24px;
 }
 
-.link {
-  composes: anchor from global;
-}
-
 .download {
-  composes: button from global;
+  composes: fancyAnchor from global;
   font-size: 24px;
 }

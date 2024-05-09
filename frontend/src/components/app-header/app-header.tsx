@@ -15,10 +15,8 @@ const AppHeader: FC = () => {
       <h1 className={styles.name}>
         Ivan Shanin
       </h1>
-      <a href={cv} download="IvanShaninCV.pdf" className={styles.link}>
-        <button className={styles.download}>
-          Download CV
-        </button>
+      <a href={cv} download="IvanShaninCV.pdf" className={styles.download}>
+        Download CV
       </a>
     </header>
   );
