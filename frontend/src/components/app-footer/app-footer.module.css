@@ -1,0 +1,29 @@
+.footer {
+  padding: 36px 48px;
+  border-top: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  gap: 106px;
+}
+
+.caption {
+  margin: 0;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.linebreak {
+  display: table;
+}
+
+.link {
+  composes: fancyAnchor from global;
+  color: var(--accent-color);
+}
+
+.contacts {
+  composes: fancyList from global;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}

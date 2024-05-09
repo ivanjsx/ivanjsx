@@ -7,6 +7,7 @@ import styles from "./root.module.css";
 
 // components 
 import AppHeader from "../../components/app-header/app-header";
+import AppFooter from "../../components/app-footer/app-footer";
 
 
 
@@ -15,6 +16,7 @@ const RootLayout: FC = () => {
     <div className={styles.page}>
       <AppHeader />
       <Outlet />
+      <AppFooter />
     </div>
   )
 };
