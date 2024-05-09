@@ -8,6 +8,7 @@ import "./index.css";
 
 // components 
 import App from "./components/app/app";
+import ErrorBoundary from "./components/error-boundary/error-boundary";
 
 
 
@@ -15,10 +16,14 @@ const root = createRoot(
   document.querySelector("#root") as HTMLDivElement
 );
 
+
+
 root.render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ErrorBoundary>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ErrorBoundary>
   </StrictMode>
 );
