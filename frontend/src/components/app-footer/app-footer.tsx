@@ -57,7 +57,7 @@ const AppFooter: FC = () => {
         <Contact link="https://github.com/ivanjsx" iconSrc={github} />
         <Contact link="https://linkedin.com/in/justicewisdom" iconSrc={linkedin} />
         <Contact link="https://twitter.com/ivanjsx" iconSrc={twitter} />
-        <Contact link="https://instagram.com/justicewisdom" iconSrc={instagram} />
+        <Contact link="https://instagram.com/justice_wisdom" iconSrc={instagram} />
       </ul>
     </footer>
   );
