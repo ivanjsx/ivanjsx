@@ -1,12 +1,5 @@
-.intro {
-  margin-top: 64px;
-  padding: 0 106px;
-  background-image: url(../../media/eagle.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-}
-
-.text {
-  font-size: 69px;
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 164px;
 }
